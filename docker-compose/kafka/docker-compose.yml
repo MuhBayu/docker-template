@@ -1,9 +1,7 @@
 version: '2'
-
 networks:
   kafka-net:
     driver: bridge
-
 services:
   zookeeper-server:
     image: 'bitnami/zookeeper:latest'
